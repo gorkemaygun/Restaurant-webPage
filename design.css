@@ -1,0 +1,165 @@
+html{
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR-w1Ea8cdjVOxcKn6SjU-ipGdjDa5Sj-qYDxbKt8L37VyGvuVX);	
+	background-repeat: repeat;
+	background-size: 30%;
+	background-attachment: fixed;
+
+}
+body{
+	position: relative;
+	height: 2000px;
+
+}
+nav{
+	height: 5%;
+	text-align: right;
+}
+nav li
+{
+
+	display: inline-flex;
+	font-size: 15px;
+	text-transform: uppercase;
+	text-align: right;
+	margin-right:10px;
+	font-family: 'Merriweather', serif;	
+}
+nav a
+{
+	text-decoration: none;
+	color: black;
+}
+nav a:hover
+{
+	text-decoration:underline;
+	color: purple;
+}
+a li{
+	display: inline;
+	font-size: 12px;
+	text-transform: uppercase;
+	font-family:sans-serif;
+	margin-right:30px; 
+}
+label, select{
+	margin:5px;
+	font-family: 'Baloo Da 2', cursive;
+	font-weight: bold;
+	
+}
+.div-img img{
+	display: flex;
+	border: 1px solid black;
+}
+.div-img p{
+  font-weight: bold;
+  font-family: 'Baloo Da 2', cursive;
+}
+.div-img h3{
+ font-family: 'Indie Flower', cursive;;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.label{
+	text-align: center;
+}
+
+.label label{
+	display: block;
+}
+button{
+height: 10%;
+	width: 10%;
+}
+button .rsvr{
+	display: block;
+	margin:10px;
+	text-align: center;
+	}
+button:hover{
+	background-color:#4bf542;
+	box-shadow: 5px 5px 10px black;
+}
+.footer nav{
+	position: relative;
+	bottom: 0px ;
+	right: 3%;
+	text-align:right ; 
+}
+.footer footer{
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+}
+#Privacy,#Licence,#Blog{
+	font-family: Arial;
+	display: inline;
+	text-decoration:underline;
+	font-size:15px;
+	font-weight: bold;
+	text-transform: none;
+	text-decoration:none;  
+}
+#headlight{
+	text-align: center;
+	text-transform: uppercase;
+	text-shadow: 1px 4px 1px red;
+  	font-family: 'Baloo Da 2', cursive;
+	font-family: 'Merriweather', serif;
+}
+.div p {
+	font-family: 'Baloo Da 2', cursive;
+	font-size: 20px;
+	font-weight: bold;
+	margin-right: 10px;
+	margin-left: 10px;
+	text-align: center;
+	margin-top: 20px;	
+	display: flex;
+	justify-content: space-between;
+	margin:2%;
+}
+.shadow-div{
+  box-shadow: 5px 5px 10px black;
+}
+.div{
+	bottom: 5%;
+	justify-content: space-between;
+	margin:2%;
+}
+.scale-up-center {
+  -webkit-animation: scale-up-center 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+          animation: scale-up-center 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+@-webkit-keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+@keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+.res{
+	text-align: center;
+
+}
+nav .logo{
+	display: flex;
+	height: 110%;
+	width: 15%;
+
+}
+
